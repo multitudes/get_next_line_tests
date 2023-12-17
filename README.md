@@ -3,6 +3,8 @@
 
 A small suite of tests for the "get next line" project at 42 written in C.
 
+⚠️ Still work in progress but you can still use it to add your tests to it until I finish editing mine :) ⚠️
+
 ## The project
 
 > This project is about programming a function that returns a line read from a file descriptor.
