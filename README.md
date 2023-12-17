@@ -31,7 +31,6 @@ Also it will check that the memory allocated is properly freed.
 The tests should be run with different sizes of BUFFER_SIZE. I did not find a better way yet than rerun the makefile with different values of BUFFER_SIZE in this way:
 ```
 make BUFFER_SIZE=1000
-make
 ```
 
 ## Usage
