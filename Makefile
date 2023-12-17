@@ -1,9 +1,10 @@
-CFLAGS=-Wall -Wextra -Werror
-
 # Compiler and flags
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 INCLUDES = -I../
+
+# Add a variable for BUFFER_SIZE
+BUFFER_SIZE ?= 10
 
 # Source files
 SRCS = ../get_next_line.c ../get_next_line_utils.c
@@ -20,7 +21,7 @@ TESTS = get_next_line_tests
 all: $(TESTS)
 
 $(TESTS): $(OBJS) $(TEST_OBJ)
-	$(CC) $(CFLAGS) $(INCLUDES) $^ -o $@
+	$(CC) $(CFLAGS) $(INCLUDES) -DBUFFER_SIZE=$(BUFFER_SIZE) $^ -o $@
 	sh ./runtests.sh
 	
 %.o: %.c
