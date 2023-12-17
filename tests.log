@@ -1,0 +1,102 @@
+DEBUG get_next_line_tests.c:390: ----- RUNNING: ./get_next_line_tests
+DEBUG get_next_line_tests.c:385: 
+----- test_invalid_fd
+DEBUG get_next_line_tests.c:390: ----- RUNNING: ./get_next_line_tests
+DEBUG get_next_line_tests.c:385: 
+----- test_invalid_fd
+DEBUG get_next_line_tests.c:390: ----- RUNNING: ./get_next_line_tests
+DEBUG get_next_line_tests.c:385: 
+----- test_invalid_fd
+DEBUG get_next_line_tests.c:390: ----- RUNNING: ./get_next_line_tests
+DEBUG get_next_line_tests.c:385: 
+----- test_invalid_fd
+DEBUG get_next_line_tests.c:15: ======= TESTing invalid fd ==========
+
+DEBUG get_next_line_tests.c:16: ** fd = 1000 - buffer size 10
+
+DEBUG get_next_line_tests.c:19: +++++++++++++++++++++++
+
+DEBUG get_next_line_tests.c:20: next line is |(null)|
+
+DEBUG get_next_line_tests.c:21: +++++++++++++++++++++++
+
+DEBUG get_next_line_tests.c:25: ** fd = -1 - buffer size 10
+
+DEBUG get_next_line_tests.c:28: +++++++++++++++++++++++
+
+DEBUG get_next_line_tests.c:29: next line is |(null)|
+
+DEBUG get_next_line_tests.c:30: +++++++++++++++++++++++
+
+DEBUG get_next_line_tests.c:392: ----- RUNNING: ./get_next_line_tests
+DEBUG get_next_line_tests.c:387: 
+----- test_invalid_fd
+DEBUG get_next_line_tests.c:15: ======= TESTING invalid fd ==========
+
+DEBUG get_next_line_tests.c:16: ** fd = 1000 - buffer size 10
+
+DEBUG get_next_line_tests.c:19: next line is |(null)|
+
+DEBUG get_next_line_tests.c:23: ** fd = -1 - buffer size 10
+
+DEBUG get_next_line_tests.c:25: next line is |(null)|
+
+DEBUG get_next_line_tests.c:30: ** fd = -1 - buffer size 10
+
+DEBUG get_next_line_tests.c:32: next line is |(null)|
+
+DEBUG get_next_line_tests.c:396: ----- RUNNING: ./get_next_line_tests
+DEBUG get_next_line_tests.c:390: 
+----- test_invalid_fd
+DEBUG get_next_line_tests.c:15: ======= test_invalid_fd ==========
+
+DEBUG get_next_line_tests.c:16: ** fd = 1000 - buffer size 10
+
+DEBUG get_next_line_tests.c:19: next line is |(null)|
+
+DEBUG get_next_line_tests.c:23: ** fd = -1 - buffer size 10
+
+DEBUG get_next_line_tests.c:25: next line is |(null)|
+
+DEBUG get_next_line_tests.c:30: ** fd = -1 - buffer size 10
+
+DEBUG get_next_line_tests.c:32: next line is |(null)|
+
+DEBUG get_next_line_tests.c:391: 
+----- test_one_newline
+DEBUG get_next_line_tests.c:41: =======  test_one_newline ==========
+
+DEBUG get_next_line_tests.c:42: buffer size 10
+
+DEBUG get_next_line_tests.c:48: ** fd = -1 - buffer size 10
+
+DEBUG get_next_line_tests.c:50: next line is |(null)|
+
+DEBUG get_next_line_tests.c:396: ----- RUNNING: ./get_next_line_tests
+DEBUG get_next_line_tests.c:390: 
+----- test_invalid_fd
+DEBUG get_next_line_tests.c:15: ======= test_invalid_fd ==========
+
+DEBUG get_next_line_tests.c:16: ** fd = 1000 - buffer size 10
+
+DEBUG get_next_line_tests.c:19: next line is |(null)|
+
+DEBUG get_next_line_tests.c:23: ** fd = -1 - buffer size 10
+
+DEBUG get_next_line_tests.c:25: next line is |(null)|
+
+DEBUG get_next_line_tests.c:30: ** fd = -1 - buffer size 10
+
+DEBUG get_next_line_tests.c:32: next line is |(null)|
+
+DEBUG get_next_line_tests.c:391: 
+----- test_one_newline
+DEBUG get_next_line_tests.c:41: =======  test_one_newline ==========
+
+DEBUG get_next_line_tests.c:42: buffer size 10
+
+DEBUG get_next_line_tests.c:48: ** fd = 3 - buffer size 10
+
+DEBUG get_next_line_tests.c:50: next line is |42
+|
+
