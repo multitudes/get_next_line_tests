@@ -26,6 +26,14 @@ File descriptors are represented by non-negative integers. The integer value ser
 
 The tests will use invalid file descriptions like '-1' or a file descriptor from a recently closed file or a file descriptor with a value which is not corresponding to a file opened by the system. In these cases the test checks for a return value of (null).
 
+Also it will check that the memory allocated is properly freed.
+
+The tests should be run with different sizes of BUFFER_SIZE. I did not find a better way yet than rerun the makefile with different values of BUFFER_SIZE in this way:
+```
+make BUFFER_SIZE=1000
+make
+```
+
 ## Usage
 No installation needed. 
 Just download the repo and copy it in your project folder. Compile your library first with its own makefile. Then cd into the test folder cloned from GitHub and run `make` again. The output should be similar to this one below:
